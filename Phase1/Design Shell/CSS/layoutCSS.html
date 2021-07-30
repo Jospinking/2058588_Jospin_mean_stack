@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            margin: 0;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50px 1fr 1fr 100px;
+
+            gap: 10px;
+
+            /*add 10px on the edging (padding and box-sizing)*/
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+
+        .container div {
+            padding: 10px;
+            /*border: 1px solid #010101;*/
+            border-style: solid;
+            border-width: 1px;
+            
+        }
+
+        /*set the grid to full length taking different column*/
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color:slateblue;
+        }
+
+        .projects {
+            
+            grid-row-start: 2;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: slategrey;
+            
+        
+        }
+
+       .hobbies {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color: darkgoldenrod;
+        }
+
+        .skills {
+            grid-column: 3 / span 1;
+            background-color: tan;
+        }
+        .contacts {
+            grid-column: 1 / span 3;  /*it means the same description as .header*/
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class = "header">Full Name</div>
+        <div class = "projects">Projects</div>
+        <div class = "hobbies">Hobbies</div>
+        <div class = "skills">Industry Expertise/Skills</div>
+        <div class = "contacts"> <h4>Contacts</h4></div>
+
+<h3></h3>
+
+        
+    </div>
+</body>
+</html>
