@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM</title>
+
+    <script src= "storage.js"></script>
+    
+    <style>
+        #headline{
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Program Managers</h1>
+    <h3 id="headline"><u>Add New Budget</u> </h3>
+
+    <form>
+        <label>Client Name</label> 
+        <input type="text" name = "clientname" id="cname"> <br>
+        <label>Project Name</label>
+        <input type="text" name = "project" id="pname"> <br>
+        <label>Budget</label>
+        <input type="number" name = "budget" id="bname"><br>
+        <input type="button" value="Add" onclick="onFormSubmit ()">
+        <input type="reset" value= clear>
+    
+    </form>
+    <br>
+    <a href="main.html">Back</a>
+    
+</body>
+</html>
