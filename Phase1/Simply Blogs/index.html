@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIR8hR3ix_7UwB_xS89UoUihNOk_bvDbVk3fYdK9v6-VhplKjgU0F-inTBisdVveDhUwg&usqp=CAU">
+    <title>Simply Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/blogs.js"></script>
+</head>
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!">Simply Blogging</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#add-blog">Add Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     
+
+    <!-- add blog section -->
+    <section class="bg-light py-5" id="add-blog">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <div id="post" ><i></i></div>
+                <h2 class="fw-bolder">Here you can add a new blog</h2>
+                
+            </div>
+
+
+
+    <div class="container">
+        <div class="addBlog">
+            <div class='row'>
+                <div class='col'>
+                    <label class="formLabelTitle" for="">Title:</label>
+                </div>
+                <div class='col'>
+                    <input type="text" id="title" class="formInput">
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col'>
+                    <label class="formLabelTitle" for="">Article:</label>
+                </div>
+                <div class='col'>
+                    <textarea name="article" class="formLabelTitle" id="article" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col'>
+                    <label class="formLabelTitle" for="">Image:</label>
+                </div>
+                <div class='col'>
+                    <input type="text" id="img" class="formInput">
+                </div>
+            </div>
+            <input type="button" value="Post" class="btn btn-outline-dark" onclick="getBlogData()">
+            <input type="button" value="Clear" class="btn btn-secondary" onclick="clearBlogForm()">
+        </div>
+
+        
+        <!-- This is where all posted recent blogs will be located -->
+        <div class="blogPosts">
+            <table class="blogPostTable">
+                <thead>
+                    <th colspan=3 class="tableTitle">See Blogs...</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Unused -->
+        <div class="container">
+            <div id="gridBlogLocation">
+                <!-- <div id="blogPostsGrid">
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+ <!-- Footer-->
+ <footer class="py-5 bg-dark">
+    <div class="container px-5">
+        <p class="m-0 text-center text-white">&#169 Jospin Kingombe</p>
+    </div>
+</footer>
+
+<script>
+    retreiveData()
+</script>
+</html>
