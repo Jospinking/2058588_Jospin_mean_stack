@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Cart</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="typeScript/script.js"></script>    
+</head>
+<body>
+
+    <nav class="nav justify-content-end" style="background-color: rgb(73, 55, 31);">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="main.html">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+                <a id="navCartLink" class="nav-link" href="cart.html">Cart</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="pageTitle">
+            <h1>Coolest Sneakers In The World</h1>
+        </div>
+
+
+        <div class="cartPage">
+            <h4>Your Cart</h4>
+
+            <div class="cartList">
+                <table id="cartTable" class="cartTable table">
+                    <thead>
+                        <th colspan="2">Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <input type="button" class="btn btn-success" value="Checkout" onclick="window.location.href='checkout.html'">
+
+        </div>
+    </div>
+
+</body>
+<script>
+    displayCart()
+</script>
+</html>

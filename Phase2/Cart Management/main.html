@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="typeScript/script.js"></script>
+</head>
+<body>
+
+    <nav class="nav justify-content-end" style="background-color: rgb(73, 55, 31);">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="main.html">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+                <a id="navCartLink" class="nav-link" href="cart.html">Cart</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="pageTitle">
+            <h1>Coolest Sneakers In The World</h1>
+            <div class="productCatelog">
+
+                <div class="row">
+                    <div class="col">
+
+                        <div class="productListing" id="101">
+                            <img id="pic_101" class="productImage"src="https://i.insider.com/55a966f3371d22c6178b62ed?width=700" alt="">
+                            <p id="title_101" class="productTitle">Airjordan 1</p>
+                            <p id="price_101">$300</p>
+                            <input type="button" class="btn btn-success" value="Add to Cart" onclick="product_101()">
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="102">
+                            <img id="pic_102" class="productImage"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4hca8fbOjQyp-ZhH91z00TZkjHwEMa8fFg&usqp=CAU" alt="">
+                            <p id="title_102" class="productTitle">Converse</p>
+                            <p id="price_102">$109</p>
+                            <input type="button" class="btn btn-success" value="Add to Cart" onclick="product_102()">                            
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="productListing" id="103">
+                            <img id="pic_103" class="productImage"src="https://cdn.runrepeat.com/i/adidas/34394/adidas-yeezy-700-v3-alvah-h67799-size-11-5-alvah-alvah-alvah-f6a4-main.jpg" alt="">
+                            <p id="title_103" class="productTitle">Yeezy 700</p>
+                            <p id="price_103">$309</p>
+                            <input type="button" class="btn btn-success" value="Add to Cart" onclick="product_103()">                            
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="productListing" id="104">
+                            <img id="pic_104" class="productImage"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMWjZ9jLRyDBzAZoHuVRBpxDFwBA386HPFw&usqp=CAU" alt="">
+                            <p id="title_104" class="productTitle">Nike</p>
+                            <p id="price_104">$100</p>
+                            <input type="button" class="btn btn-success" value="Add to Cart" onclick="product_104()">                            
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
