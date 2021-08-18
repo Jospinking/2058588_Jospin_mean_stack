@@ -1,0 +1,55 @@
+<div class="portfolioPage">
+    <h3>Welcome, {{username}}!</h3>
+    
+    <div class="contactEntry">
+        <div class="row">
+            <h3>Contact Form</h3>
+        </div>
+        <form [formGroup]="contactRef" (ngSubmit)="saveContactInfo()">
+            <div class="row">
+                <div class="col">
+                    <label>Contact Name: </label>
+                </div>
+                <div class="col">
+                    <input type="text" formControlName="contactName">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Phone Number: </label>
+                </div>
+                <div class="col">
+                    <input type="text" formControlName="phoneNum">
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" class="contactBtn btn btn-success" value="Save">
+            </div>
+            
+        </form>
+    </div>
+    
+    <div class="container">
+
+        <div class="row tableTitleCell fr">
+            <h3 class="tableTitle">Contact Informations</h3>
+        </div>
+        <div class="row fr">
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>Phone</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let contact of contacts">
+                        <td *ngFor="let item of contact">
+                            {{item}}
+                        </td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

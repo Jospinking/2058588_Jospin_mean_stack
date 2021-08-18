@@ -1,0 +1,51 @@
+<div class="registerForm">
+
+    <div class="row">
+        <h3>Register Account</h3>
+    </div>
+
+    
+    <form [formGroup]="registrationRef" (ngSubmit)="registerAccount()">
+        <div class="row">
+            <div class="col">
+                <label for="">First Name: </label>
+            </div>
+            <div class="col">
+                <input type="text" formControlName="fname">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="">Last Name: </label>
+            </div>
+            <div class="col">
+                <input type="text" formControlName="lname">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="">Username: </label>
+            </div>
+            <div class="col">
+                <input type="text" formControlName="username">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="">Password: </label>
+            </div>
+            <div class="col">
+                <input type="password" formControlName="password">
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" class="registerBtn btn btn-success" value="Register">
+            <input type="reset" class="registerBtn btn btn-success" value="Reset">
+        </div>
+    </form>
+    {{msg}}
+</div>

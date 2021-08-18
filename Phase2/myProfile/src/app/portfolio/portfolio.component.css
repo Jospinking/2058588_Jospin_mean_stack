@@ -1,0 +1,59 @@
+.portfolioPage{
+
+}
+
+h3,label, table,th,td{
+    color: white;
+    text-align: center
+}
+th,td{
+    text-align: center;
+}
+th{
+    padding: 5px;
+    font-size: 25px;
+}
+td{
+    font-size: 20px;
+}
+
+.contactTableEntry{
+    border: 5px solid rgb(0, 195, 255);
+    border-radius: 10px;
+    
+
+}
+
+.tableTitleCell{
+    text-align: center;
+    border: 5px solid black;
+}
+table{
+    margin: auto;
+    border: 5px solid black;
+    padding: 15px;
+}
+
+
+.contactEntry{
+    margin: 25px auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: rosybrown;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.contactBtn{
+    margin: auto;
+    width: 100px;
+}
+
+.row{
+    margin: 25px;
+}
+
+.fr {
+    margin: 0px;
+}

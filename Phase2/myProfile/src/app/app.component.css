@@ -1,0 +1,12 @@
+.websiteTitle,.websiteNavBar{
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+.navItem{
+    margin-left: 20px;
+    margin-right: 20px;
+}

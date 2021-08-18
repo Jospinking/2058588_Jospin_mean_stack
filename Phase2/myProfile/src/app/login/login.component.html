@@ -1,0 +1,32 @@
+<div class="loginForm">
+
+    <div class="row">
+        <h3>Login</h3>
+    </div>
+    
+    
+    <form [formGroup]="loginRef" (ngSubmit)="checkCredentials()">
+        <div class="row">
+            <div class="col">
+                <label for="">Username: </label>
+            </div>
+            <div class="col">
+                <input type="text" formControlName="username">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="">Password: </label>
+            </div>
+            <div class="col">
+                <input type="password" formControlName="password">
+            </div>
+        </div>
+        <div class="row loginBtns">
+            <input type="submit" class="loginBtn btn btn-success" value="Login">
+            <input type="reset" class="loginBtn btn btn-success" value="Register" routerLink="../create">
+        </div>
+    </form>
+    {{msg}}
+</div>

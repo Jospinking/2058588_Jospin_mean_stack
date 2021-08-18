@@ -1,0 +1,17 @@
+.registerForm{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: rosybrown;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.row{
+    margin: 20px;
+}
+.registerBtn{
+    margin: auto;
+    width: 100px;
+}
