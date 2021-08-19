@@ -1,0 +1,38 @@
+.date{
+    width: 50px;
+    margin: 5px;
+}
+
+table{
+    margin: auto;
+}
+
+.pageTitle{
+    text-align: center;
+}
+
+.TaskFormContainer{
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.theader{
+    text-align: center;
+}
+
+.tdata{
+    text-align: center;
+    padding: 25px;
+}
+
+.formTitle{
+    text-align: center;
+}
+
+.formButton{
+    margin: 15px;
+}
+
+.taskForm{
+    text-align: center;
+}
