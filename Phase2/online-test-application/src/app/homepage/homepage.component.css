@@ -1,0 +1,14 @@
+.pageTitle{
+    text-align: center;
+}
+
+.homescreenTitle{
+    text-align: center;
+}
+
+.start{
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    font-size: 50px;
+}

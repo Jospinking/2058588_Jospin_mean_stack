@@ -1,0 +1,117 @@
+{
+    "questions": [
+
+        {
+            "question": "which major cloud service did the pentagon sign with?",
+            "choices": [
+                "a. AWS",
+                "b. Heroku",
+                "c. Azure",
+                "d. GCP"
+            ],
+            "solution": "c"
+        },
+
+        {
+            "question": "Inside which HTML element do we put the JavaScript?",
+            "choices": [
+                "a. <script>",
+                "b. <head>",
+                "c. <meta>",
+                "d. <style>"
+            ],
+            "solution": "a"
+        },
+        
+       
+        {
+            "question": "which of the following are not javascript data types?",
+            "choices": [
+                "a. number",
+                "b. object",
+                "c. string",
+                "d. float"
+            ],
+            "solution": "d"
+        },
+        {
+            "question": "which company bought github?",
+            "choices": [
+                "a. google",
+                "b. apple",
+                "c. uber",
+                "d. microsoft"
+            ],
+            "solution": "d"
+        },
+       
+        {
+            "question": "which company developed javascript?",
+            "choices": [
+                "a. Netscape",
+                "b. Bell Labs",
+                "c. Sun Microsystems",
+                "d. IBM"
+            ],
+            "solution": "a"
+        },
+
+        {
+            "question": "what state is seattle located in?",
+            "choices": [
+                "a. Maryland",
+                "b. North Dakota",
+                "c. Montana",
+                "d. Washington"
+            ],
+            "solution": "d"
+        },
+
+
+       
+       
+        {
+            "question": "which ocean is the largest?",
+            "choices": [
+                "a. indian ocean",
+                "b. atlanic ocean",
+                "c. pacific ocean",
+                "d. arctic ocean"
+            ],
+            "solution": "c"
+        },
+        {
+            "question": "earth is which planet from the sun?",
+            "choices": [
+                "a. fifth",
+                "b. fourth",
+                "c. third",
+                "d. eighth"
+            ],
+            "solution": "c"
+        },
+       
+       
+        {
+            "question": "what year was the SR-71 Blackbird decommissioned by NASA?",
+            "choices": [
+                "a. 1971",
+                "b. 1999",
+                "c. 1998",
+                "d. 1997"
+            ],
+            "solution": "b"
+        },
+        
+        {
+            "question": "was git developed by the same developer for linux?",
+            "choices": [
+                "a. true",
+                "b. false"
+            ],
+            "solution": "a"
+        }
+        
+        
+    ]
+}

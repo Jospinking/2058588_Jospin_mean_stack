@@ -1,0 +1,49 @@
+a. AWS
+b. Heroku
+c. Azure
+d. GCP
+---
+a. <script>
+b. <head>
+c. <meta>
+d. <style>
+---
+a. number
+b. object
+c. string
+d. float
+---
+a. google
+b. apple
+c. uber
+d. microsoft
+---
+a. Netscape
+b. Bell Labs
+c. Sun Microsystems
+d. IBM
+---
+a. Maryland
+b. North Dakota
+c. Montana
+d. Washington
+---
+a. indian ocean
+b. atlanic ocean
+c. pacific ocean
+d. arctic ocean
+---
+a. fifth
+b. fourth
+c. third
+d. eighth
+---
+
+a. 1971
+b. 1999
+c. 1998
+d. 1997
+---
+a. true
+b. false
+---

@@ -1,0 +1,27 @@
+<div class="container">
+
+    <h3 class="title" style="text-align: center;">Good Luck!</h3>
+ 
+
+
+    <div class="test">
+        <div class="question_q" *ngFor="let q of this.service.questions;index as idx">
+            <h3>{{idx+1}}.&nbsp;{{q}}</h3>
+            <div id="choice_{{idx}}_{{idx_c}}" class="question_c form-check" *ngFor="let c of this.service.choices[idx];index as idx_c">
+                <input #radio_choice type="radio" class="form-check-input" name="{{idx}}" id="radio_{{idx+idx_c}}" (click)="update_score(choice.textContent!,idx)"/>
+                <label #choice class="form-check-label" for="radio_{{idx+idx_c}}">{{c}}</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="submitBtnLocation">
+        <input type="button" value="Submit!" class="submitBtn btn btn-primary" (click)="score()">
+    </div>
+        
+    <div id="result" *ngIf="this.service.test_scored == true">
+        <p [style.color]="this.user_score[this.user_score.length-1]">
+            Result: {{this.user_score[0]}} -- {{this.user_score[2]}}/{{this.user_score[3]}} -- {{this.user_score[1]}}%
+        </p>
+    </div>
+</div>
+<router-outlet></router-outlet>
