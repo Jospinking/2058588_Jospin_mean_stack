@@ -1,0 +1,41 @@
+****** Appended Entry to JSON *******
+[8/24/2021 - 2:03:22 PM]: ****** User Inputted the Following *******
+{
+    "fname": "Jospin",
+    "lname": "King",
+    "gender": "Male",
+    "email": "jospin@yahoo.com",
+    "current_date": "8/24/2021",
+    "current_time": "2:03:22 PM"
+}
+****** Appended Entry to JSON *******
+[8/24/2021 - 2:04:01 PM]: ****** User Inputted the Following *******
+{
+    "fname": "mark",
+    "lname": "king",
+    "gender": "male",
+    "email": "mark@gmail.com",
+    "current_date": "8/24/2021",
+    "current_time": "2:04:01 PM"
+}
+****** Appended Entry to JSON *******
+[8/24/2021 - 3:41:53 PM]: ****** User Inputted the Following *******
+{
+    "fname": "marie",
+    "lname": "john",
+    "gender": "female",
+    "email": "marie@ghjfr.com",
+    "current_date": "8/24/2021",
+    "current_time": "3:41:53 PM"
+}
+****** Appended Entry to JSON *******
+[8/24/2021 - 8:27:51 PM]: ****** User Inputted the Following *******
+{
+    "fname": "lebron",
+    "lname": "james",
+    "gender": "m,ale",
+    "email": "lebron@lakers.com",
+    "current_date": "8/24/2021",
+    "current_time": "8:27:51 PM"
+}
+****** Appended Entry to JSON *******
