@@ -1,0 +1,81 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.navLocation {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.classTable{
+    border-collapse: separate !important;
+    border: 7px solid black;
+    border-radius: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* html{
+    height: 100%;
+} */
+.bodyContent{
+    margin:10px auto;
+
+    background-color: white;
+    width: 88%;
+    height: 75vh;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(rgba(66, 211, 74, 0.527), rgb(90, 80, 60) 60%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.addCourseForm{
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+
+    margin: auto;
+    text-align: center;
+
+}
+
+.menuarea{
+    text-align: center;
+    margin: 10px auto;
+    width: 88%;
+    height: max-content;
+    
+    border: 5px solid black;
+    border-radius: 10px;    
+}
+
+.menuareaItem{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    margin: 10px auto;
+    text-align: center;
+}
